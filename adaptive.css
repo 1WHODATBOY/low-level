@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1200px) {
+
+.kar1 {
+	width:300px; 
+}
+
+.kar2 {
+	width: 300px;
+	margin-left: 50px;
+	margin-top: -23px;
+}
+.sign2 {
+	margin-left: 150px;
+}
+
+.kar3 {
+
+	width: 300px;
+	margin-top: 300px;
+	margin-left: -700px;
+}
+
+.sign3 {
+	margin-left: -600px;
+}
+
+.kar4 {
+	width: 300px;
+	margin-top: -258px;
+	margin-left: 400px;
+}
+
+.sign4 {
+	margin-left: 500px;
+	margin-top: 0px;
+}
+
+.kar5{
+	width: 300px;
+	margin-top: 200px;
+	margin-left: -310px;
+}
+
+.sign5 {
+	margin-top: 0px;
+	margin-left: -200px;
+}
+
+.kar6 {
+	width: 300px;
+	margin-left: -350px;
+}
+
+.sign6 {
+	margin-left: -230px;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+.content{max-width: 640px}
+
+
+}
+

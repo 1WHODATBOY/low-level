@@ -1,0 +1,207 @@
+ * {
+ 	box-sizing: border-box;
+ }
+
+ body {
+ 	color:black;
+ 	font-size: 30px;
+ }
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row{ display: block; }
+/* close commented backslash hack */
+
+.header {
+	margin-bottom: 10px;
+}
+
+.inner-header {
+	border: 2px solid black;
+	background: white;
+	height: 200px; 
+}
+
+.content {
+	width: 70%;
+	float:right;
+}
+
+.inner-content{
+	border: 2px solid black;
+	background: white;
+	min-height: 500px; 
+}
+
+.sidebar {
+	width: 30%;
+	float:left;
+	padding-right: 10px;
+}
+
+.inner-sidebar {
+	border: 2px solid black;
+	background: white;
+	min-height: 500px;
+}
+
+.footer {
+	margin-top: 10px;
+}
+
+.inner-footer {
+	border: 2px solid black;
+	background: white;
+	height: 200px; 
+}
+
+.nav_link {
+	text-align: center;
+}
+
+.nav_link a {
+	display: block;
+	border-top: 2px solid #333;
+    border-right: 2px solid #333;
+    border-left: 7px solid red;
+    border-bottom: 2px solid #333;
+}
+
+.logo {
+	position: fixed;
+	text-align: left; 
+}
+
+.nazva {
+	margin-top: 70px;
+ 	text-align: center;
+}
+
+.FIO {
+	text-align: center;
+	margin-top:160px;
+}
+
+.sign1 {
+	margin-left: 140px;
+}
+
+.kar1 {
+	border: 2px solid red;
+	width:250px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.sign2 {
+	margin-left: 140px;
+	min-height: initial;
+}
+
+.kar2 {
+	border: 2px solid red;
+	width:250px;
+	margin-left: 50px;
+	margin-top: 10px;
+	min-height: initial;
+}
+
+.oop {
+	margin-top: -249px;
+	margin-left: 400px;
+	min-height: initial;
+}
+
+.sign3 {
+	margin-left: 140px;
+	min-height: initial;
+}
+
+.kar3 {
+	border: 2px solid red;
+	width:250px;
+	margin-left: 50px;
+	margin-top: 10px;
+	min-height: initial;
+}
+
+.oop1 {
+	margin-top: -249px;
+	margin-left: 790px;
+	min-height: initial;
+}
+
+.sign4 {
+	margin-left: 140px;
+	min-height: initial;
+}
+
+.kar4 {
+	border: 2px solid red;
+	width:250px;
+	margin-left: 50px;
+	margin-top: 10px;
+	min-height: initial;
+}
+
+.oop2 {
+	margin-top: -70px;
+	text-align: left;
+	min-height: initial;
+}
+
+.sign5 {
+	margin-left: 140px;
+	min-height: initial;
+}
+
+.kar5 {
+	border: 2px solid red;
+	width:250px;
+	margin-left: 50px;
+	margin-top: 10px;
+	min-height: initial;
+}
+
+.oop3 {
+	margin-top: -249px;
+	margin-left: 400px;
+	min-height: initial;
+}
+
+.sign6 {
+	margin-left: 140px;
+	min-height: initial;
+}
+
+.kar6 {
+	border: 2px solid red;
+	width:250px;
+	margin-left: 50px;
+	margin-top: 10px;
+	min-height: initial;
+}
+
+.oop4 {
+	margin-top: -249px;
+	margin-left: 790px;
+	min-height: initial;
+}
+
+
+
+
+
+
+
+
+
